@@ -1,0 +1,86 @@
+{
+    "classicos": [
+        {
+            "id": 1,
+            "nome": "Tradicional",
+            "descrição": "Pão, hambúrguer, ovo, alface e batata.",
+            "preco": 8.5,
+            "categoria_id": 1
+        },
+        {
+            "id": 2,
+            "nome": "X-Búrguer",
+            "descrição": "Pão, hambúrguer, muçarela, alface e batata.",
+            "preco": 9.5,
+            "categoria_id": 1
+        },
+        {
+            "id": 3,
+            "nome": "X-Bacon",
+            "descricao": "Pão, hambúrguer, muçarela, bacon, alface e batata.",
+            "preco": 11.5,
+            "categoria_id": 1
+        },
+        {
+            "id": 4,
+            "nome": "X-Tudo",
+            "descricao": "Pão, 2 hambúrguer, muçarela, cheddar, bacon, ovo, alface, tomate e batata.",
+            "preco": 12.5,
+            "categoria_id": 1
+        }
+    ],
+
+    "burgers": [
+        {
+            "id": 1,
+            "nome": "Duplo X-Búrguer",
+            "descrição": "Pão, 2 hambúrguer, muçarela, alface e batata.",
+            "preco": 10.5,
+            "categoria_id": 2
+        },
+        {
+            "id": 2,
+            "nome": "Duplo Cheddar Bacon",
+            "descrição": "Pão, 2 hambúrguer, cheddar, bacon.",
+            "preco": 9.5,
+            "categoria_id": 2
+        },
+        {
+            "id": 3,
+            "nome": "Búrguer Chicken",
+            "descrição": "Pão, frango empanado, muçarela, alface, tomate.",
+            "preco": 12.5,
+            "categoria_id": 2
+        },
+        {
+            "id": 4,
+            "nome": "cheddar",
+            "descrição": "Pão, hambúrguer, cebola, cheddar.",
+            "preco": 11.5,
+            "categoria_id": 2
+        },
+        {
+            "id": 5,
+            "nome": "Costela Búrguer",
+            "descrição": "Pão, costela bovina, cheddar, cebola, alface, bacon.",
+            "preco": 9.5,
+            "categoria_id": 2
+        }   
+    ],
+    "promocoes":[
+        {
+            "id": 1,
+            "nome": "2+1",
+            "descrição": "Selecione 2 Búrguers e 1 batata, ganhe um refrigerante de 1 litro.",
+            "preco": 26.5,
+            "categoria_id": 3
+        },
+        {
+            "id": 2,
+            "nome": "Trio Búrguer Chicken",
+            "descrição": "3 Búrguer Chicken (Pão, frango empanado, muçarela, alface, tomate) + 1 batata + 1 refri de 2 litros.",
+            "preco": 55,
+            "categoria_id": 3
+        }
+    ]
+}
