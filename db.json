@@ -1,86 +1,199 @@
 {
-    "classicos": [
+    "Hamburguer": [
         {
             "id": 1,
-            "nome": "Tradicional",
-            "descrição": "Pão, hambúrguer, ovo, alface e batata.",
-            "preco": 8.5,
+            "nome": "Burguer",
+            "descrição": "Pão, hambúrguer, 1 fatia de muçarela, ovo, 1 fatia de presunto, bacon, calabresa, cheddar, alface, tomate, cebola e batata.",
+            "preco": 15.9,
             "categoria_id": 1
         },
         {
             "id": 2,
-            "nome": "X-Búrguer",
-            "descrição": "Pão, hambúrguer, muçarela, alface e batata.",
-            "preco": 9.5,
+            "nome": "Duplo Burguer",
+            "descrição": "Pão, 2 hambúrguers, 2 fatia de muçarela, 2 ovos, 2 fatias de presunto, bacon, calabresa, cheddar, alface, tomate, cebola e batata.",
+            "preco": 17.9,
             "categoria_id": 1
         },
         {
             "id": 3,
-            "nome": "X-Bacon",
-            "descricao": "Pão, hambúrguer, muçarela, bacon, alface e batata.",
-            "preco": 11.5,
+            "nome": "Triplo Burguer",
+            "descricao": "Pão, 3 hambúrguers, 3 fatia de muçarela, 3 ovos, 3 fatias de presunto, bacon, calabresa, cheddar, alface, tomate, cebola e batata.",
+            "preco": 21.9,
             "categoria_id": 1
         },
         {
             "id": 4,
-            "nome": "X-Tudo",
-            "descricao": "Pão, 2 hambúrguer, muçarela, cheddar, bacon, ovo, alface, tomate e batata.",
-            "preco": 12.5,
+            "nome": "Picanha Burguer",
+            "descricao": "Pão, carne de picanha, 1 fatia de muçarela, ovo, 1 fatia de presunto, bacon, calabresa, cheddar, alface, tomate, cebola e molho especial.",
+            "preco": 23.9,
             "categoria_id": 1
-        }
-    ],
-
-    "burgers": [
-        {
-            "id": 1,
-            "nome": "Duplo X-Búrguer",
-            "descrição": "Pão, 2 hambúrguer, muçarela, alface e batata.",
-            "preco": 10.5,
-            "categoria_id": 2
-        },
-        {
-            "id": 2,
-            "nome": "Duplo Cheddar Bacon",
-            "descrição": "Pão, 2 hambúrguer, cheddar, bacon.",
-            "preco": 9.5,
-            "categoria_id": 2
-        },
-        {
-            "id": 3,
-            "nome": "Búrguer Chicken",
-            "descrição": "Pão, frango empanado, muçarela, alface, tomate.",
-            "preco": 12.5,
-            "categoria_id": 2
-        },
-        {
-            "id": 4,
-            "nome": "cheddar",
-            "descrição": "Pão, hambúrguer, cebola, cheddar.",
-            "preco": 11.5,
-            "categoria_id": 2
         },
         {
             "id": 5,
-            "nome": "Costela Búrguer",
-            "descrição": "Pão, costela bovina, cheddar, cebola, alface, bacon.",
-            "preco": 9.5,
+            "nome": "Duplo Picanha Burguer",
+            "descricao": "Pão, 2 carnes de picanha,  2 fatia de muçarela, 2 ovos, 2 fatias de presunto, bacon, calabresa, cheddar, alface, tomate, cebola e molho especial.",
+            "preco": 28.9,
+            "categoria_id": 1
+        },
+        {
+            "id": 6,
+            "nome": "Bacon Burguer",
+            "descricao": "Pão, hambúrguer,  1 fatia de muçarela, ovo, 1 fatia de presunto, muito bacon, cheddar, alface, tomate, cebola, batata e molho especial.",
+            "preco": 14.9,
+            "categoria_id": 1
+        },
+        {
+            "id": 7,
+            "nome": "Calabresa Burguer",
+            "descricao": "Pão, hambúrguer,  1 fatia de muçarela, 1 fatia de presunto, muita calabresa, cheddar, alface, tomate, cebola, batata e molho especial.",
+            "preco": 15.9,
+            "categoria_id": 1
+        },
+        {
+            "id": 8,
+            "nome": "Onions Burguer",
+            "descricao": "Pão, hambúrguer,  1 fatia de muçarela, 1 fatia de presunto, onions, catupiry, alface, tomate, cebola, picles e molho especial.",
+            "preco": 18.9,
+            "categoria_id": 1
+        }
+    ],
+    "petiscos": [
+        {
+            "id": 1,
+            "nome": "Batata Frita (P)",
+            "descrição": "Batata, Calabresa e Cheddar.",
+            "preco": 11.9,
+            "categoria_id": 2
+        },
+        {
+            "id": 2,
+            "nome": "Batata Frita (M)",
+            "descrição": "Batata, Bacon, Calabresa, Cheddar e Catupiry.",
+            "preco": 17.9,
+            "categoria_id": 2
+        },
+        {
+            "id": 3,
+            "nome": "Batata Frita (G)",
+            "descrição": "Batata, Bacon, Calabresa, Queijo ralado, Cheddar e Catupiry.",
+            "preco": 24.9,
+            "categoria_id": 2
+        },
+        {
+            "id": 4,
+            "nome": "Onions",
+            "descrição": "Porção com 15 cebolas empanadas onions sequinhas e molho especial da casa.",
+            "preco": 14.9,
             "categoria_id": 2
         }   
     ],
-    "promocoes":[
+    "Bebidas":[
         {
             "id": 1,
-            "nome": "2+1",
-            "descrição": "Selecione 2 Búrguers e 1 batata, ganhe um refrigerante de 1 litro.",
-            "preco": 26.5,
+            "nome": "Água com Gás",
+            "descrição": "510ml.",
+            "preco": 4,
             "categoria_id": 3
         },
         {
             "id": 2,
-            "nome": "Trio Búrguer Chicken",
-            "descrição": "3 Búrguer Chicken (Pão, frango empanado, muçarela, alface, tomate) + 1 batata + 1 refri de 2 litros.",
-            "preco": 55,
+            "nome": "Água Tônica",
+            "descrição": "350ml.",
+            "preco": 6,
             "categoria_id": 3
+        },
+        {
+            "id": 3,
+            "nome": "Cerveja Antarctica",
+            "descrição": "300ml.",
+            "preco": 4.5,
+            "categoria_id": 3
+        },
+        {
+            "id": 4,
+            "nome": "Cerveja Brahma",
+            "descrição": "300ml.",
+            "preco": 4.5,
+            "categoria_id": 3
+        },
+        {
+            "id": 5,
+            "nome": "Coca-Cola",
+            "descrição": "310ml.",
+            "preco": 6,
+            "categoria_id": 3
+        },
+        {
+            "id": 6,
+            "nome": "Coca-Cola sem Açúcar",
+            "descrição": "350ml.",
+            "preco": 6,
+            "categoria_id": 3
+        },
+        {
+            "id": 7,
+            "nome": "Kuat Guaraná",
+            "descrição": "2l.",
+            "preco": 9,
+            "categoria_id": 3
+        },
+        {
+            "id": 8,
+            "nome": "Pepsi",
+            "descrição": "269ml.",
+            "preco": 6,
+            "categoria_id": 3
+        }
+    ],
+    "trios": [
+        {
+            "id": 1,
+            "nome": "Trio Burguer",
+            "descrição": "Burguer + batata + Refrigerante",
+            "preco": 26.9,
+            "categoria_id": 4
+        },
+        {
+            "id": 2,
+            "nome": "Trio Duplo Burguer",
+            "descrição": "Duplo Burguer + batata + Refrigerante",
+            "preco": 28.9,
+            "categoria_id": 4
+        },
+        {
+            "id": 3,
+            "nome": "Trio Triplo Burguer",
+            "descricao": "Tiplo Burguer + batata + Refrigerante",
+            "preco": 32.9,
+            "categoria_id": 4
+        },
+        {
+            "id": 4,
+            "nome": "Trio Picanha Burguer",
+            "descricao": "Picanha Burguer + batata + Refrigerante",
+            "preco": 34.9,
+            "categoria_id": 4
+        },
+        {
+            "id": 5,
+            "nome": "Trio Bacon Burguer",
+            "descricao": "Bacon Burguer + batata + Refrigerante",
+            "preco": 25.9,
+            "categoria_id": 4
+        },
+        {
+            "id": 6,
+            "nome": "Trio Calabresa Burguer",
+            "descricao": "Calabresa Burguer + batata + Refrigerante",
+            "preco": 26.9,
+            "categoria_id": 4
+        },
+        {
+            "id": 7,
+            "nome": "Trio Onions Burguer",
+            "descricao": "Onions Burguer + batata + Refrigerante",
+            "preco": 29.9,
+            "categoria_id": 4
         }
     ]
 }
