@@ -87,7 +87,7 @@
             "categoria_id": 2
         }   
     ],
-    "Bebidas":[
+    "bebidas":[
         {
             "id": 1,
             "nome": "Água com Gás",
